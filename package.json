@@ -2,8 +2,14 @@
   "name": "edrive50-website",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://ec2-13-58-133-172.us-east-2.compute.amazonaws.com:3000/",
   "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.15.0",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.6",
     "react-dom": "^16.8.6",
     "react-scripts": "2.1.8"
   },
